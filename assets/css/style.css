@@ -1,0 +1,29 @@
+#main-container{
+    width: 98vw;
+    height: 97vh;
+}
+#inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact-list-container{
+    height: 300px;
+    width: 300px;
+    overflow-y: scroll;
+    background-color: green;
+    text-align: center;
+}
+#contact-list-container h1{
+    background-color: red;
+    color: white;
+}
+.p-container{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: white;
+}
+.p-container p{
+    margin: 0px;
+    padding: 2px;
+}
